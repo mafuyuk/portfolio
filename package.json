@@ -9,8 +9,9 @@
   "homepage": "https://github.com/mafuyuk/portfolio#readme",
   "scripts": {
     "build": "webpack",
-    "start": "webpack --progress --colors --watch",
-    "serve": "webpack-dev-server --progress --colors"
+    "start": "npm run watch & npm run serve",
+    "serve": "webpack-dev-server --hot --progress --colors",
+    "watch": "webpack --progress --colors --watch"
   },
   "dependencies": {
     "axios": "^0.18.0",
