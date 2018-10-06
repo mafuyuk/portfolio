@@ -8,5 +8,19 @@
   "bugs": {
     "url": "https://github.com/mafuyuk/portfolio/issues"
   },
-  "homepage": "https://github.com/mafuyuk/portfolio#readme"
+  "homepage": "https://github.com/mafuyuk/portfolio#readme",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "css-loader": "^1.0.0",
+    "element-ui": "^2.4.8",
+    "file-loader": "^2.0.0",
+    "style-loader": "^0.23.0",
+    "url-loader": "^1.1.1",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
 }
