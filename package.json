@@ -8,9 +8,9 @@
   },
   "homepage": "https://github.com/mafuyuk/portfolio#readme",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode production",
     "start": "npm run watch & npm run serve",
-    "serve": "webpack-dev-server --hot --progress --colors",
+    "serve": "webpack-dev-server --hot --progress --colors --mode development --open",
     "watch": "webpack --progress --colors --watch"
   },
   "dependencies": {

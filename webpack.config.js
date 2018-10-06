@@ -35,7 +35,6 @@ module.exports = {
         publicPath: '/assets/',
         watchContentBase: true,
     },
-    mode : "development",
     plugins: [
         new VueLoaderPlugin()
     ]
