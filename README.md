@@ -9,4 +9,5 @@
 ```bash
 $ git clone git@github.com:mafuyuk/portfolio.git
 $ npm install
+$ npm run start
 ```

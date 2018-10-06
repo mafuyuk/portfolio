@@ -4,7 +4,7 @@ module.exports = {
     entry: './src/js/app.js',
     output: {
         path: __dirname,
-        filename: './public/js/bundle.js'
+        filename: './public/assets/bundle.js'
     },
     resolve: {
         alias: {
@@ -31,7 +31,9 @@ module.exports = {
     },
     devServer: {
         contentBase: './public',
-        port: 3000
+        port: 3000,
+        publicPath: '/assets/',
+        watchContentBase: true,
     },
     mode : "development",
     plugins: [
