@@ -11,7 +11,7 @@
     "build": "webpack --mode production",
     "start": "npm run watch & npm run serve",
     "serve": "webpack-dev-server --hot --progress --colors --mode development --open",
-    "watch": "webpack --progress --colors --watch"
+    "watch": "webpack --mode development --progress --colors --watch"
   },
   "dependencies": {
     "axios": "^0.18.0",
