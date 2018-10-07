@@ -1,21 +1,3 @@
+<script src="./header.js"></script>
 <template src="./header.html"></template>
-
-<script>
-    export default {
-        name: "headers",
-        data: function() {
-            return {
-                menu: [
-                    { text: "Top", path: "/" },
-                    { text: "Portfolio", path: "/portfolio" },
-                    { text: "History", path: "/history" },
-                    { text: "Contact", path: "/contact" },
-                ]
-            }
-        }
-    }
-</script>
-
-<style scoped>
-
-</style>
+<style src="./header.css"></style>
