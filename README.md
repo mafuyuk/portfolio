@@ -1,4 +1,5 @@
 # Portfolio
+https://mafuyuk.com/
 
 ## 🌐 動作環境
 * Node.js v10.11.0
@@ -10,4 +11,10 @@
 $ git clone git@github.com:mafuyuk/portfolio.git
 $ npm install
 $ npm run start
+```
+
+### デプロイ
+```bash
+$ npm run build
+$ firebase deploy
 ```
