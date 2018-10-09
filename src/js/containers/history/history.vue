@@ -1,11 +1,5 @@
-<template src="./history.html"></template>
-
-<script>
-    export default {
-        name: "history"
-    }
-</script>
-
+<template src="./template.html"></template>
+<script src="./script.js"></script>
 <style scoped>
 
 </style>

@@ -1,3 +1,3 @@
-<script src="./header.js"></script>
-<template src="./header.html"></template>
-<style src="./header.css"></style>
+<template src="./template.html"></template>
+<script src="./script.js"></script>
+<style src="./style.css"></style>

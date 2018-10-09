@@ -1,11 +1,5 @@
-<template src="./contact.html"></template>
-
-<script>
-    export default {
-        name: "contact"
-    }
-</script>
-
+<template src="./template.html"></template>
+<script src="./script.js"></script>
 <style scoped>
 
 </style>

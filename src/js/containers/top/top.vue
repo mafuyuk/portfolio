@@ -1,11 +1,5 @@
-<template src="./top.html"></template>
-
-<script>
-    export default {
-        name: "top"
-    }
-</script>
-
+<template src="./template.html"></template>
+<script src="./script.js"></script>
 <style scoped>
 
 </style>

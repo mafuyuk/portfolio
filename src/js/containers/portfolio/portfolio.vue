@@ -1,11 +1,5 @@
-<template src="./portfolio.html"></template>
-
-<script>
-    export default {
-        name: "portfolio"
-    }
-</script>
-
+<template src="./template.html"></template>
+<script src="./script.js"></script>
 <style scoped>
 
 </style>
