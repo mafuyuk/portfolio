@@ -4,7 +4,7 @@ import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default-dark.css'
 import VueRouter from 'vue-router';
 
-import header from './components/header/header.vue';
+import Header from './components/header/Header.vue';
 import routes from './routes';
 
 Vue.use(VueRouter);
@@ -17,7 +17,7 @@ const router = new VueRouter({
 const app = new Vue({
     el: '#app',
     components: {
-        'headers': header,
+        'headers': Header,
     },
     router,
 });
