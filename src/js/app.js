@@ -4,7 +4,7 @@ import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default-dark.css'
 import VueRouter from 'vue-router';
 
-import Header from './components/header/Header.vue';
+import Header from '../components/header/Header.vue';
 import routes from './routes';
 
 Vue.use(VueRouter);
