@@ -1,17 +1,17 @@
 <md-card>
     <md-card-media>
-        <img src="/assets/icon.jpg" alt="People">
+        <img :src="imgPath" alt="People">
     </md-card-media>
 
     <md-card-header>
-        <div class="md-title">Title</div>
-        <div class="md-subhead">Subtitle</div>
+        <div class="md-title">{{ title }}</div>
+        <div class="md-subhead">{{ subTitle }}</div>
     </md-card-header>
 
     <md-card-expand>
         <md-card-actions md-alignment="space-between">
             <div>
-                <p>Go React.js TODO: タグで使用技術のせる</p>
+                <p v-for="tag in techTags">{{ tag }}</p>
             </div>
 
             <md-card-expand-trigger>
@@ -20,9 +20,7 @@
         </md-card-actions>
 
         <md-card-expand-content>
-            <md-card-content>
-                せつめい。せつめい。せつめい。せつめい。せつめい。せつめい。せつめい。せつめい。せつめい。せつめい。
-            </md-card-content>
+            <md-card-content>{{ content }}</md-card-content>
         </md-card-expand-content>
     </md-card-expand>
 </md-card>
