@@ -1,6 +1,6 @@
 <md-card>
     <md-card-media>
-        <img :src="imgPath" alt="People">
+        <img :src="imgPath">
     </md-card-media>
 
     <md-card-header>
@@ -8,19 +8,26 @@
         <div class="md-subhead">{{ subTitle }}</div>
     </md-card-header>
 
+    <md-chip class="md-primary" v-for="tag in tags" md-clickable>{{ tag }}</md-chip>
+
     <md-card-expand>
         <md-card-actions md-alignment="space-between">
-            <div>
-                <p v-for="tag in techTags">{{ tag }}</p>
-            </div>
-
             <md-card-expand-trigger>
-                <md-button>Learn more</md-button>
+                <md-button class="md-icon-button" md-expand-trigge>
+                    <md-icon>keyboard_arrow_down</md-icon>
+                </md-button>
             </md-card-expand-trigger>
         </md-card-actions>
 
         <md-card-expand-content>
-            <md-card-content>{{ content }}</md-card-content>
+            <md-card-content>
+                <h3>Description</h3>
+                {{ content }}
+                <h3 v-if="0 !== links.length">Link</h3>
+                <div v-for="link in links">
+                    ・<a :href="link.url">{{ link.description }}</a><br>
+                </div>
+            </md-card-content>
         </md-card-expand-content>
     </md-card-expand>
 </md-card>

@@ -1,30 +1,27 @@
 [
   {
     "imgPath": "/assets/icon.jpg",
-    "title": "タイトル1",
-    "subTitle": "サブタイトル",
-    "techTags": ["Go", "Vue.js"],
-    "content": "せつめいせつめいせつめいせつめいせつめいせつめいせつめい"
+    "title": "mafuyuk.com",
+    "subTitle": "mafuyukのポートフォリオサイト",
+    "tags": ["Node.js", "Vue.js", "Material Design", "AWS Route53", "Firebase Hosting"],
+    "content": "このサイト",
+    "links": []
   },
   {
-    "imgPath": "/assets/icon.jpg",
-    "title": "タイトル2",
-    "subTitle": "サブタイトル",
-    "techTags": ["AWS"],
-    "content": "せつめいせつめいせつめいせつめいせつめいせつめいせつめい"
-  },
-  {
-    "imgPath": "/assets/icon.jpg",
-    "title": "タイトル3",
-    "subTitle": "サブタイトル",
-    "techTags": ["Go", "Cassandra", "Kafka"],
-    "content": "せつめいせつめいせつめいせつめいせつめいせつめいせつめい"
-  },
-  {
-    "imgPath": "/assets/icon.jpg",
-    "title": "タイトル4",
-    "subTitle": "サブタイトル",
-    "techTags": ["Lambda", "Node.js"],
-    "content": "せつめいせつめいせつめいせつめいせつめいせつめいせつめい"
+    "imgPath": "/assets/noah.png",
+    "title": "noah",
+    "subTitle": "水位情報取得、災害事前察知アプリ",
+    "tags": ["Python", "Node.js", "React.js", "Electron",  "AWS Lambda", "AWS API Gateway", "AWS DynamoDB"],
+    "content": "近隣の河川の水位情報を日々取得し、機械学習によって危険が近づいていないか予測するアプリ。ASIA OPEN DATA HACKATHON 提出作品。",
+    "links": [
+      {
+        "url": "https://github.com/Noah0x0",
+        "description": "ソースコード"
+      },
+      {
+        "url": "http://www.vled.or.jp/column/2017/001468/",
+        "description": "ASIA OPEN DATA HACKATHON 2017の記事"
+      }
+    ]
   }
 ]

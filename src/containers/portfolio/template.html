@@ -1,11 +1,11 @@
 <md-content>
-    <p>-----開発中-----</p>
     <h1>Portfolio</h1>
     <Card v-for="card in cardList"
         :img-path="card.imgPath"
         :title="card.title"
         :sub-title="card.subTitle"
-        :tech-tags="card.tags"
+        :tags="card.tags"
         :content="card.content"
+        :links="card.links"
     />
 </md-content>

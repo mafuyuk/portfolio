@@ -4,7 +4,8 @@ export default {
         imgPath: URL,
         title: String,
         subTitle: String,
-        techTags: Array,
+        tags: Array,
         content: String,
+        links: Array,
     }
 }
