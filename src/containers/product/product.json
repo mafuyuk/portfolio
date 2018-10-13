@@ -1,6 +1,6 @@
 [
   {
-    "imgPath": "/assets/icon.jpg",
+    "imgPath": "/assets/mafuyuk-com.png",
     "title": "mafuyuk.com",
     "subTitle": "mafuyukのポートフォリオサイト",
     "tags": ["Node.js", "Vue.js", "Material Design", "AWS Route53", "Firebase Hosting"],
