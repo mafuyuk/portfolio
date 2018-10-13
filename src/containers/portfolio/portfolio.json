@@ -4,8 +4,13 @@
     "title": "mafuyuk.com",
     "subTitle": "mafuyukのポートフォリオサイト",
     "tags": ["Node.js", "Vue.js", "Material Design", "AWS Route53", "Firebase Hosting"],
-    "content": "このサイト",
-    "links": []
+    "content": "このサイト。未完成ですが公開しています。随時更新を入れていきますのでご了承ください。",
+    "links": [
+      {
+        "url": "https://github.com/mafuyuk/portfolio",
+        "description": "ソースコード"
+      }
+    ]
   },
   {
     "imgPath": "/assets/noah.png",
