@@ -5,7 +5,7 @@ export default {
             menu: [
                 { text: "Top", path: "/" },
                 { text: "Product", path: "/product" },
-                { text: "History", path: "/history" },
+                { text: "Work", path: "/work" },
                 { text: "Contact", path: "/contact" },
             ]
         }
