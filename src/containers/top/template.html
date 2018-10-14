@@ -1,22 +1,46 @@
 <md-content>
-    <h1>About Me</h1>
-
-    <img class="kamono-img" src="../../../public/assets/icon.jpg">
-
-    <div>
-        石川県金沢市在住のバックエンドエンジニアのmafuyukです。<br>
-        フルスクラッチでの開発を経験したことがあるため、上流工程から下流工程まで、フロントエンドからバックエンド、クラウドインフラまでを触れます。<br>
-        保守運用もやっていますがどちらかというと新規開発のほうが得意で魅力を感じています。<br>
-        言語はGolangが好きですが、何にでも挑戦したいと思っています。最近はブロックチェーン技術に興味が出て休日にSolidityの学習をしてます。<br>
-        その他、触ったことのある技術に関してはProductやWorkを見てみてください。<br>
-        平日夜と土日にフルリモートでの副業をやったりしていますのでご興味があればContactから連絡いただけると幸いです。
+    <br>
+    <div class="profile-section">
+        <h1>Profile</h1>
+        <p>
+            <img class="kamono-img" src="../../../public/assets/icon.jpg"><br>
+            石川県金沢市在住のバックエンドエンジニアのmafuyukです。<br>
+            フルスクラッチでの開発を経験したことがあるため、上流工程から下流工程まで、フロントエンドからバックエンド、クラウドインフラまでを触れます。<br>
+            保守運用もやっていますがどちらかというと新規開発のほうが得意で魅力を感じています。<br>
+            言語はGolangが好きですが、何にでも挑戦したいと思っています。最近はブロックチェーン技術に興味が出て休日にSolidityの学習をしてます。<br>
+            その他、触ったことのある技術に関してはPRODUCTやWORKを見てみてください。<br>
+            平日夜と土日にフルリモートでの副業をやったりしていますのでご興味があればContactから連絡いただけると幸いです。
+        </p>
     </div>
 
     <br>
+    <div class="my-favorite-technologies-section">
+        <h1>My Favorite Technologies</h1>
+        <div class="frontend">
+            <h3>Frontend</h3>
+            <md-chip class="md-primary" v-for="tag in frontendTags" md-clickable>{{ tag }}</md-chip>
+        </div>
+        <div class="backend">
+            <h3>Backend</h3>
+            <md-chip class="md-primary" v-for="tag in backendTags" md-clickable>{{ tag }}</md-chip>
+        </div>
+        <div class="infra">
+            <h3>Infra</h3>
+            <md-chip class="md-primary" v-for="tag in infraTags" md-clickable>{{ tag }}</md-chip>
+        </div>
+        <div class="other">
+            <h3>Other</h3>
+            <md-chip class="md-primary" v-for="tag in otherTags" md-clickable>{{ tag }}</md-chip>
+        </div>
+    </div>
 
-    Twitter: <a href="https://twitter.com/mafuyuk_m" target="_blank">@mafuyuk_m</a><br>
-    Facebook: <a href="https://www.facebook.com/mafuyu.kamono" target="_blank">mafuyu.kamono</a><br>
-    Instagram: <a href="https://www.instagram.com/mafuyuk.m/" target="_blank">mafuyu.kamono</a><br>
-    Github: <a href="https://github.com/mafuyuk" target="_blank">mafuyuk.m</a><br>
-    Qiita: <a href="https://qiita.com/mafuyuk" target="_blank">mafuyuk</a><br>
+    <br>
+    <div class="sns-account-section">
+        <h1>SNS Account</h1>
+        Twitter: <a href="https://twitter.com/mafuyuk_m" target="_blank">@mafuyuk_m</a><br>
+        Facebook: <a href="https://www.facebook.com/mafuyu.kamono" target="_blank">mafuyu.kamono</a><br>
+        Instagram: <a href="https://www.instagram.com/mafuyuk.m/" target="_blank">mafuyu.kamono</a><br>
+        Github: <a href="https://github.com/mafuyuk" target="_blank">mafuyuk.m</a><br>
+        Qiita: <a href="https://qiita.com/mafuyuk" target="_blank">mafuyuk</a><br>
+    </div>
 </md-content>

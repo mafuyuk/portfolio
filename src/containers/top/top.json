@@ -1,0 +1,8 @@
+{
+  "tags": {
+    "frontend": ["ECMAScript", "React.js", "Vue.js", "Electron", "PWA"],
+    "backend": ["Golang", "Node.js"],
+    "infra": ["AWS", "GCP", "Firebase"],
+    "other": ["Terraform", "Docker", "Ansible"]
+  }
+}
