@@ -1,0 +1,43 @@
+{
+    "history": [
+        {
+            "date": "2014-04",
+            "title": "会員登録、認証認可基盤の開発運用",
+            "contents": [
+                "新卒としてIT業界に参入、数千万人規模の会員システムとOpenAPI認証基盤の開発、運用保守を行う。",
+                "大きな成果としては、数千万のユーザーのパスワード管理をよりセキュアにする対応をユーザー影響なしでやりとげた。",
+                "またウォータフォールからアジャイルへと開発方針を変える際のチーム組成に関して関与し、チーム文化の醸成に貢献した。"
+            ],
+            "tags": ["PHP", "FuelPHP", "Apache", "MySQL", "Redis"]
+        },
+        {
+            "date": "2016-05",
+            "title": "プッシュ通知基盤の新規開発",
+            "contents": [
+                "アプリ、ブラウザ対応のプッシュ通知基盤を開発した。",
+                "フルスクラッチでの開発を経験、詳細としてはフロント、バックエンド開発、インフラの構築、CI/CD、DevOps、Infrastructure as a Codeの経験を積みました。",
+                "初期はオンプレで開発を進めていたが、途中からクラウド環境を利用できるようになったためオンプレとクラウドのハイブリッドになったため使用技術が多い。"
+            ],
+            "tags": ["Golang", "Echo", "Java", "Node.js", "JavaScript", "React.js", "Nginx", "Cassandra", "Kafka", "Zookeeper", "Redis", "MySQL", "Rundeck", "Zabbix", "Jenkins", "Ansible", "Capistrano", "Digdag", "AWS VPC", "AWS ELB", "AWS Lambda", "AWS ElasticBeanstalk", "AWS CloudFront", "AWS S3", "AWS SQS", "AWS DynamoDB", "AWS CloudWatch", "AWS WAF", "AWS ElastiCache", "AWS CloudFormation", "AWS Kinesis", "AWS ElasticsearchService", "CircleCI"]
+        },
+        {
+            "date": "2017-05",
+            "title": "プッシュ通知基盤のリプレイス",
+            "contents": [
+                "オンプレ+クラウドで管理点数が多くなりすぎたこととドメインに変更があったため、機能追加をそのままするのではなく完全にクラウドに移るためリプレイスを実施。",
+                "リプレイスは問題なく終了し、オンプレの環境を閉鎖し完全にAWSのみに移行することが成功。",
+                "リプレイス時に再度設計を行い直したためコードの保守性も向上した。"],
+            "tags": ["Go", "Node.js", "CircleCI", "Terraform", "AWS ALB", "AWS ECS Fargate", "AWS Aurora"]
+        },
+        {
+            "date": "2018-07",
+            "title": "カスタマーサポート基盤の開発運用、リプレイス",
+            "contents": [
+                "新規で発足したチームにJoin。技術的なリードをまかされる。",
+                "とりあえず、スクラムの文化を取り入れるべくGithub+Zenhub+CirclrCIを利用できるようにし、チーム組成を行った。",
+                "今後は保守運用を行いながら、リプレイスを走らせる予定でGCP、Golangあたりを採用しようと思っています。"
+            ],
+            "tags": ["PHP", "Laravel", "React.js", "Vue.js", "Go(予定)", "GCP(予定)"]
+        }
+    ]
+}

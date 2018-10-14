@@ -1,3 +1,15 @@
+import History from '../../components/history/History.vue';
+
+const workData = require('./work.json');
+
 export default {
-    name: "history"
+    name: "work",
+    data () {
+        return {
+            history: workData.history,
+        }
+    },
+    components: {
+        History
+    }
 }
