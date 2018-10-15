@@ -1,11 +1,15 @@
 <md-content>
-    <h1>Product</h1>
-    <Card v-for="card in cardList"
-        :img-path="card.imgPath"
-        :title="card.title"
-        :sub-title="card.subTitle"
-        :tags="card.tags"
-        :content="card.content"
-        :links="card.links"
-    />
+    <br>
+    <div class="product-section">
+        <h1>Product</h1>
+        <Card
+            v-for="card in cardList"
+            :img-path="card.imgPath"
+            :title="card.title"
+            :sub-title="card.subTitle"
+            :tags="card.tags"
+            :content="card.content"
+            :links="card.links"
+        />
+    </div>
 </md-content>
