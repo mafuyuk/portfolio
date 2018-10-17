@@ -4,5 +4,32 @@
     "backend": ["Golang", "Node.js"],
     "infra": ["AWS", "GCP", "Firebase"],
     "other": ["Terraform", "Docker", "Ansible"]
-  }
+  },
+  "logos": [
+    {
+      "imagePath": "/assets/image/logo/facebook.png",
+      "link": "https://www.facebook.com/mafuyu.kamono",
+      "accountName": "mafuyu.kamono"
+    },
+    {
+      "imagePath": "/assets/image/logo/instagram.png",
+      "link": "https://www.instagram.com/mafuyuk.m/",
+      "accountName": "mafuyuk.m"
+    },
+    {
+      "imagePath": "/assets/image/logo/twitter.png",
+      "link": "https://twitter.com/mafuyuk_m",
+      "accountName": "@mafuyuk_m"
+    },
+    {
+      "imagePath": "/assets/image/logo/github.png",
+      "link": "https://github.com/mafuyuk",
+      "accountName": "mafuyuk"
+    },
+    {
+      "imagePath": "/assets/image/logo/qiita.png",
+      "link": "https://qiita.com/mafuyuk",
+      "accountName": "mafuyuk"
+    }
+  ]
 }

@@ -3,7 +3,7 @@
     <div class="profile-section">
         <h1>Profile</h1>
         <p>
-            <img class="kamono-img" src="../../../public/assets/icon.jpg"><br>
+            <img class="kamono-img" src="/assets/icon.jpg"><br>
             石川県金沢市在住のバックエンドエンジニアのmafuyukです。<br>
             フルスクラッチでの開発を経験したことがあるため、上流工程から下流工程まで、フロントエンドからバックエンド、クラウドインフラまでを触れます。<br>
             保守運用もやっていますがどちらかというと新規開発のほうが得意で魅力を感じています。<br>
@@ -37,10 +37,11 @@
     <br>
     <div class="sns-account-section">
         <h1>SNS Account</h1>
-        Twitter: <a href="https://twitter.com/mafuyuk_m" target="_blank">@mafuyuk_m</a><br>
-        Facebook: <a href="https://www.facebook.com/mafuyu.kamono" target="_blank">mafuyu.kamono</a><br>
-        Instagram: <a href="https://www.instagram.com/mafuyuk.m/" target="_blank">mafuyuk.m</a><br>
-        Github: <a href="https://github.com/mafuyuk" target="_blank">mafuyuk</a><br>
-        Qiita: <a href="https://qiita.com/mafuyuk" target="_blank">mafuyuk</a><br>
+        <Logo v-for="logo in logos"
+            :image-path="logo.imagePath"
+            :link="logo.link"
+            :account-name="logo.accountName"
+        ></Logo>
+        <br>
     </div>
 </md-content>
