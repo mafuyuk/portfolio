@@ -18,19 +18,30 @@
         <h1>My Favorite Technologies</h1>
         <div class="frontend">
             <h3>Frontend</h3>
-            <md-chip class="md-primary" v-for="tag in frontendTags" md-clickable>{{ tag }}</md-chip>
+            <md-chip class="md-primary" v-for="tag in frontendTags" :key="tag.id" md-clickable>
+                {{ tag }}
+            </md-chip>
         </div>
+
         <div class="backend">
             <h3>Backend</h3>
-            <md-chip class="md-primary" v-for="tag in backendTags" md-clickable>{{ tag }}</md-chip>
+            <md-chip class="md-primary" v-for="tag in backendTags" :key="tag.id" md-clickable>
+                {{ tag }}
+            </md-chip>
         </div>
+
         <div class="infra">
             <h3>Infra</h3>
-            <md-chip class="md-primary" v-for="tag in infraTags" md-clickable>{{ tag }}</md-chip>
+            <md-chip class="md-primary" v-for="tag in infraTags" :key="tag.id" md-clickable>
+                {{ tag }}
+            </md-chip>
         </div>
+
         <div class="other">
             <h3>Other</h3>
-            <md-chip class="md-primary" v-for="tag in otherTags" md-clickable>{{ tag }}</md-chip>
+            <md-chip class="md-primary" v-for="tag in otherTags" :key="tag.id" md-clickable>
+                {{ tag }}
+            </md-chip>
         </div>
     </div>
 
@@ -38,6 +49,7 @@
     <div class="sns-account-section">
         <h1>SNS Account</h1>
         <Logo v-for="logo in logos"
+            :key="logo.id"
             :image-path="logo.imagePath"
             :link="logo.link"
             :account-name="logo.accountName"

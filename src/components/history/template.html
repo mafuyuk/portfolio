@@ -1,10 +1,10 @@
 <div>
     <md-steppers md-sync-route md-dynamic-height>
-        <md-step v-for="data in history" :md-label="data.date">
+        <md-step v-for="data in history" :key="data.id" :md-label="data.date">
             <h2>{{ data.title }}</h2>
-            <p v-for="content in data.contents">{{ content }}</p>
+            <p v-for="content in data.contents" :key="content.id">{{ content }}</p>
             <h2>使用技術</h2>
-            <md-chip class="md-primary" v-for="tag in data.tags" md-clickable>{{ tag }}</md-chip>
+            <md-chip class="md-primary" v-for="tag in data.tags" :key="tag.id" md-clickable>{{ tag }}</md-chip>
         </md-step>
     </md-steppers>
 </div>

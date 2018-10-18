@@ -4,6 +4,7 @@
         <h1>Product</h1>
         <Card
             v-for="card in cardList"
+            :key="card.id"
             :img-path="card.imgPath"
             :title="card.title"
             :sub-title="card.subTitle"

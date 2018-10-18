@@ -1,10 +1,12 @@
+const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 module.exports = {
-    entry: './src/js/app.js',
+    mode: 'development',
+    entry: path.join(__dirname, 'src/js/app.js'),
     output: {
-        path: __dirname,
-        filename: './public/assets/bundle.js'
+        path: path.resolve(__dirname, 'public/assets'),
+        filename: 'bundle.js'
     },
     resolve: {
         alias: {
@@ -23,17 +25,25 @@ module.exports = {
                     }
                 }
             },
-            { test: /\.vue$/, use: 'vue-loader' },
+            {
+                test: /\.vue$/,
+                use: {
+                    loader: 'vue-loader',
+                    options: {
+                        hotReload: true,
+                    }
+                }
+            },
             { test: /\.css$/, use: ['vue-style-loader', 'css-loader']},
             { test: /\.(otf|eot|svg|ttf|woff|woff2)(\?.+)?$/, use: 'url-loader' },
             { test: /\.(jpg|png|gif)$/, use: 'url-loader' },
         ]
     },
     devServer: {
-        contentBase: './public',
+        contentBase: path.join(__dirname, 'public'),
         port: 3000,
-        publicPath: '/assets/',
         watchContentBase: true,
+        hot: true,
     },
     plugins: [
         new VueLoaderPlugin()
