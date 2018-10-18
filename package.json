@@ -10,7 +10,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "npm run watch & npm run serve",
-    "serve": "webpack-dev-server --inline --progress --colors --open",
+    "serve": "webpack-dev-server --progress --colors --open",
     "watch": "webpack --mode development --progress --colors --watch"
   },
   "dependencies": {
