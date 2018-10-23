@@ -60,6 +60,6 @@ storiesOf('Card', module).add('to Storybook', () => ({
         }
     },
     components: { Card },
-    template: '<Card img-path="../../public/assets/mafuyuk-com.png" title="Noah" sub-title="災害情報アプリ" :tags="tags" content="〇〇なアプリです" :links="links"></Card>',
+    template: '<Card img-path="/assets/mafuyuk-com.png" title="Noah" sub-title="災害情報アプリ" :tags="tags" content="〇〇なアプリです" :links="links"></Card>',
 }));
 /* eslint-enable react/react-in-jsx-scope */

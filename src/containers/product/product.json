@@ -1,6 +1,6 @@
 [
   {
-    "imgPath": "/assets/mafuyuk-com.png",
+    "imgPath": "/assets/image/product/mafuyuk-com.png",
     "title": "mafuyuk.com",
     "subTitle": "mafuyukのポートフォリオサイト",
     "tags": ["Node.js", "Vue.js", "Material Design", "AWS Route53", "Firebase Hosting"],
@@ -13,8 +13,8 @@
     ]
   },
   {
-    "imgPath": "/assets/noah.png",
-    "title": "noah",
+    "imgPath": "/assets/image/product/noah.png",
+    "title": "Noah",
     "subTitle": "水位情報取得、災害事前察知アプリ",
     "tags": ["Python", "Node.js", "React.js", "Electron",  "AWS Lambda", "AWS API Gateway", "AWS DynamoDB"],
     "content": "近隣の河川の水位情報を日々取得し、機械学習によって危険が近づいていないか予測するアプリ。ASIA OPEN DATA HACKATHON 提出作品。",
