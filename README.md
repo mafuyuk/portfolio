@@ -13,8 +13,13 @@ $ npm install
 $ npm run start
 ```
 
+### storybook環境立ち上げ
+```bash
+$ npm run storybook
+```
+
 ### デプロイ
 ```bash
 $ npm run build
-$ firebase deploy
+$ npm run deploy
 ```
