@@ -3,11 +3,18 @@
 import { storiesOf } from '@storybook/vue';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
+import 'vue-material/dist/vue-material.min.css';
+import 'vue-material/dist/theme/default-dark.css';
+import 'material-design-icons/iconfont/material-icons.css';
 
 import MyButton from './MyButton.vue';
 import Welcome from './Welcome.vue';
 import Header from '../components/header/Header.vue';
 import Card from '../components/card/Card.vue';
+import Vue from "vue";
+import VueMaterial from "vue-material";
+
+Vue.use(VueMaterial);
 
 storiesOf('Welcome', module).add('to Storybook', () => ({
   components: { Welcome },
@@ -41,14 +48,18 @@ storiesOf('Header', module).add('to Storybook', () => ({
 }));
 
 storiesOf('Card', module).add('to Storybook', () => ({
+    data: function() {
+        return {
+            tags: [
+                "JavaScript",
+                "React.js"
+            ],
+            links: [
+                "https://mafuyuk.com/"
+            ]
+        }
+    },
     components: { Card },
-    template: '<card :img-path=""></card>',
+    template: '<Card img-path="../../public/assets/mafuyuk-com.png" title="Noah" sub-title="災害情報アプリ" :tags="tags" content="〇〇なアプリです" :links="links"></Card>',
 }));
-
-imgPath: URL,
-    title: String,
-    subTitle: String,
-    tags: Array,
-    content: String,
-    links: Array,
 /* eslint-enable react/react-in-jsx-scope */
